@@ -1,0 +1,28 @@
+<root>
+	<ABTests>
+	<!-- Пример -->
+	    <!-- abtest id="AB_Test"
+		status="1"
+		rules='{
+		    "groups": {
+			"test": {"weight": 50, "params": {"Param":"1"}},
+			"control": {"weight": 50, "params": {"Param":"0"}}
+		    },
+		    "segments": [1, 10, 100, 1000]
+		}'
+		join="PlayerLevel ge 6"
+		stay="PlayerLevel le 20"
+		launch="1234567890"
+		total="5000"
+		smooth="200"
+		smoothPeriod="3600"
+		ttl="7776000"
+		joinRetry="300"
+		saveRetry="300"
+		savePercent="100"
+		reenterable="true"
+		assignGroupOnServer="false" >
+		<custom />
+	    </abtest -->
+	</ABTests>
+</root>
