@@ -24,8 +24,8 @@
 		</elem>
 
 		<!-- current reward -->
-		<elem type="Text" pos="x:50%;y:254" offset="centerBottom" textId="DailyBonusTipText" format="font=StyleNew4 size=13"/>
-		<elem type="String" name="reward" pos="x:50%;y:234" width="1" height="1"
+		<elem type="Text" pos="x:235,y:254" offset="centerBottom" textId="DailyBonusTipText" format="font=StyleNew4 size=13"/>
+		<elem type="String" name="reward" pos="x:237,y:233" width="1" height="1"
 			myBaseFont="Style5_2_25"
 			myMaxWidth="230"
 			myFont="StyleNew4:21"
@@ -49,7 +49,7 @@
 			<elem type="Image" pos="x:67" texture="DailyBonusItemRight"/>
 			<elem type="Widget" pos="x:45">
 				<elem type="Image" name="icon" pos="x:2,y:49" offset="center" texture="DailyBonusMoney"/>
-				<elem type="Text" pos="y:77" name="title" offset="centerBottom" textId="Day" format="font=Style2 size=12" maxWidth="76"/>
+				<elem type="Text" pos="y:77" name="title" offset="centerBottom" textId="Day" format="font=Style2 size=12"/>
 				<elem type="Text" pos="y:19" name="count" offset="center" textId="" format="font=Style2 size=15"/>
 			</elem>
 			<elem type="CheckBox" name="mark" pos="x:62,y:42" offset="center" texture="GUI:OK" scale="0.785" checkedTexture="GUI:OK" checkedX="0" checkedY="0" drawBack="false"/>
@@ -68,7 +68,7 @@
 			<elem type="Image" pos="x:66" texture="DailyBonusItemRight"/>
 			<elem type="Widget" pos="x:46">
 				<elem type="Image" name="icon" pos="x:5,y:49" offset="center" texture="DailyBonusMoney"/>
-				<elem type="Text" pos="y:77" name="title" offset="centerBottom" textId="Day" format="font=Style2 size=12" maxWidth="76"/>
+				<elem type="Text" pos="y:77" name="title" offset="centerBottom" textId="Day" format="font=Style2 size=12"/>
 				<elem type="Text" pos="y:19" name="count" offset="center" textId="" format="font=Style2 size=15"/>
 			</elem>
 			<elem type="CheckBox" name="mark" pos="x:66,y:42" offset="center" texture="GUI:OK" scale="0.785" checkedTexture="GUI:OK" checkedX="0" checkedY="0" drawBack="false"/>
@@ -87,7 +87,7 @@
 			<elem type="Image" pos="x:68" texture="DailyBonusItemRight"/>
 			<elem type="Widget" pos="x:47">
 				<elem type="Image" name="icon" pos="x:5,y:49" offset="center" texture="DailyBonusMoney"/>
-				<elem type="Text" pos="y:77" name="title" offset="centerBottom" textId="Day" format="font=Style2 size=12" maxWidth="76"/>
+				<elem type="Text" pos="y:77" name="title" offset="centerBottom" textId="Day" format="font=Style2 size=12"/>
 				<elem type="Text" pos="y:19" name="count" offset="center" textId="" format="font=Style2 size=15"/>
 			</elem>
 			<elem type="CheckBox" name="mark" pos="x:66,y:42" offset="center" texture="GUI:OK" scale="0.785" checkedTexture="GUI:OK" checkedX="0" checkedY="0" drawBack="false"/>
@@ -106,7 +106,7 @@
 			<elem type="Image" pos="x:66" texture="DailyBonusItemRight"/>
 			<elem type="Widget" pos="x:47">
 				<elem type="Image" name="icon" pos="x:3,y:49" offset="center" texture="DailyBonusMoney"/>
-				<elem type="Text" pos="y:77" name="title" offset="centerBottom" textId="Day" format="font=Style2 size=12" maxWidth="76"/>
+				<elem type="Text" pos="y:77" name="title" offset="centerBottom" textId="Day" format="font=Style2 size=12"/>
 				<elem type="Text" pos="y:19" name="count" offset="center" textId="" format="font=Style2 size=15"/>
 			</elem>
 			<elem type="CheckBox" name="mark" pos="x:65,y:42" offset="center" texture="GUI:OK" scale="0.785" checkedTexture="GUI:OK" checkedX="0" checkedY="0" drawBack="false"/>
@@ -127,9 +127,9 @@
 				uStart="0" uEnd="1" vStart="0" vEnd="1"/> <!-- это тут так отзеркалена по горизонтали текстура -->
 			<elem type="Widget" pos="x:50">
 				<elem type="Image" pos="x:3,y:45" offset="center" texture="giftIcon"/>
-				<elem type="Text" pos="y:77" name="title" offset="centerBottom" textId="Day" format="font=Style2 size=12" maxWidth="76"/>
+				<elem type="Text" pos="y:77" name="title" offset="centerBottom" textId="Day" format="font=Style2 size=12"/>
 			</elem>
-			<elem type="CheckBox" name="mark" pos="x:69,y:30" offset="center" texture="GUI:OK" scale="0.785" checkedTexture="GUI:OK" checkedX="0" checkedY="0" drawBack="false"/>
+			<elem type="CheckBox" name="mark" pos="x:69,y:42" offset="center" texture="GUI:OK" scale="0.785" checkedTexture="GUI:OK" checkedX="0" checkedY="0" drawBack="false"/>
 
 			<elem type="Widget" name="select" pos="x:-3,y:-6" visible="false">
 				<elem type="Image" texture="DailyBonusSelectLeft1"/>
